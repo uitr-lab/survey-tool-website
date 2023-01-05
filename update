@@ -4,4 +4,6 @@ git pull
 
 git clone https://github.com/uitr-lab/js-survey-builder.git
 cd js-survey-builder && git pull && \cp dist/* ../web && cd ..
-chown -R ec2-user:ec2-user web
+
+# changes owner to aws linux user to simpliy ftp access
+#chown -R ec2-user:ec2-user web
