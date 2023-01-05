@@ -1,4 +1,4 @@
 <?php 
 
 
-file_put_contents('../webhooks.txt', json_encode($_POST, JSON_PRETTY_PRINT), FILE_APPEND);
+file_put_contents('../webhooks.txt', json_encode($_POST, JSON_PRETTY_PRINT)."\n", FILE_APPEND);
