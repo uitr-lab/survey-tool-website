@@ -11,7 +11,7 @@ body:before {
     content: "";
     left: 0;
     top: 0;
-    min-height: 600px;
+    min-height: 25vw;
     z-index: -2;
 }
 
@@ -28,7 +28,7 @@ body:after {
     -webkit-mask-size: 70%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: bottom center;
-    min-height: 1500px;
+    min-height: 50vw;
 }
 
 header h1 {
